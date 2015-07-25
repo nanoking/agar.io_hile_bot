@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name        Anılagariobot
-// @namespace   AnılagarioLauncher
+// @name        AposLauncher
+// @namespace   AposLauncher
 // @include     http://agar.io/*
 // @version     3.052
 // @grant       none
-// @author      Anıl
+// @author      http://www.twitch.tv/apostolique
 // ==/UserScript==
 
-var LauncherVersion = 3.052;
+var aposLauncherVersion = 3.052;
 
 Number.prototype.mod = function(n) {
     return ((this % n) + n) % n;
