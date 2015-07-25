@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name        AposLauncher
-// @namespace   AposLauncher
+// @name        Anılagariobot
+// @namespace   AnılagarioLauncher
 // @include     http://agar.io/*
 // @version     3.052
 // @grant       none
-// @author      http://www.twitch.tv/apostolique
+// @author      Anıl
 // ==/UserScript==
 
-var aposLauncherVersion = 3.052;
+var LauncherVersion = 3.052;
 
 Number.prototype.mod = function(n) {
     return ((this % n) + n) % n;
@@ -1294,7 +1294,7 @@ console.log("Running Bot Launcher!");
                 dArc = [],
                 dText = [],
                 lines = [],
-                names = ["FeeDMePls_AniL"],
+                names = ["TURKEY"],
                 originalName = names[Math.floor(Math.random() * names.length)],
                 sessionScore = 0,
                 serverIP = "",
